@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    color: #fff;
+    background-color: transparent;
+    
+}
+#date {
+    text-align: center;
+    margin-top: 2.5rem;
+    color: #f0e516;
+    background-color: rgba(0, 0, 0, 0.751);
+    font-size: 1.6rem;
+    font-weight: 200; 
+    text-transform: uppercase; 
+    height: 14vh;
+    width: 15vw;
+    border-radius: 16px;
+    top: 1%;
+}
+
+#container {
+    
+    height: 100vh;
+    width: 100%;
+    position: relative;
+   
+     background-image: url('https://images.pexels.com/photos/3155661/pexels-photo-3155661.jpeg?auto=compress&cs=tinysrgb&w=1000'); 
+background-repeat: no-repeat;
+background-size: cover; 
+background-position: center; 
+
+      display: flex;
+}
+
+#container #location {
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    left: 0%;
+    top: 21%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#container input {
+    height: 50px;
+    width: 250px;
+    margin: 0px 20px;
+    padding: 0 20px;
+    left: 0%;
+    border: none;
+    outline: none;
+    background: white;
+    font-size: 20px;
+    color: black;
+    border-radius: 32px;
+}
+
+#container input::placeholder {
+    color: #000000d0;
+}
+
+#container input[type="submit"] {
+    cursor: pointer;
+    width: 150px;
+    background: #195402d0;
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+#tempIcon {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 35%;
+    left: 60%;
+    
+}
+
+#weatherCountry {
+    font-size: 40px;
+    position: absolute;
+    top: 37%;
+    margin-left: auto;
+    margin-right: 20%;
+}
+
+#temperature {
+    font-size: 45px;
+    position: absolute;
+    top: 45%;
+    left: 37%;
+}
+
+#temperature b {
+    color: red;
+}
+
+#weatherDescription {
+    font-size: 20px;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 38%;
+    left: 60%;
+}
+
+#container ul {
+    position: absolute;
+    bottom: 17%;
+    left: auto;
+    right: auto;
+    margin-right: 20%;
+}
+
+#container ul li {
+    font-size: 20px;
+    margin: 20px 0;
+    list-style-type: none;
+    margin-right: 5rem;
+}
+
+.features
+{
+    justify-content: center;
+}
+
+.flex
+{
+  background: #000000d0;
+  color: white;
+  padding: 3em;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 700px;
+  height: 22rem;
+  margin: 1em;
+  margin-top: 12rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 18rem;
+  display: flex;
+  justify-content: center;
+}
+
+.h1
+{
+    margin-left: 18rem;
+    margin-top: 16rem;
+    font-size: 1.5rem;
+    font-family: "myFirstFont"; 
+}
+
+@font-face {
+    font-family: "myFirstFont"; 
+    src: url("fonts/ticking-timebomb-bb.regular.ttf"); 
+}
